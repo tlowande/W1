@@ -2,7 +2,7 @@ const assertEqual = require('../assertEqual')
 const tail = require('../tail')
 
 
-const result = tailnode 2); // ensure we get back two elements
+const result = tail(["Lighthouse", "Labs"]); // ensure we get back two elements
 assertEqual(result[0], "Lighthouse"); // ensure first element is "Lighthouse"
 assertEqual(result[1], "Labs");
 
