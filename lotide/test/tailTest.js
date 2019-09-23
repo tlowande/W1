@@ -14,7 +14,7 @@ const assert = require("chai").assert;
 // tail(empty); // no need to capture the return value since we are not checking it
 // assertEqual(empty.length, 3); // original array should still have 3 elements!
 
-describe("#head", () => {
+describe("#tail", () => {
   it("returns ['Lighthouse', 'Labs'] for tail(words)", () => {
     const words = ["Yo Yo", "Lighthouse", "Labs"];
     const tailed = tail(words)
